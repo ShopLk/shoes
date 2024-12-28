@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #e91e63;
+        }
+        .product button {
+            background: #2196f3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background: #0b7dda;
+        }
+    </style>
+</head>
+<body>
+    <header style="background: #333; color: white; text-align: center; padding: 1em 0;">
+        <h1>Shoes Hub</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVx-LElgGaIq_JuidHc3LbJXw_3vVVWECzLVMC36eP_Cc2lWO" alt="Black Sport Shoes">
+            <h3>Casual Vulcanized</h3>
+            <p class="price">Price: Rs. 850</p>
+            <p>Size: 7, 8, 9, 10</p>
+            <p>Cash On Delivery</p>
+            <a href="https://ikman.lk" target="_blank">
+                <button>Order Now</button>
+            </a>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPaknmA2Zqz5soGIBZht-kg7r7BXcfnm2hK0h4PWjePuF-4qe0" alt="White Sport Shoes">
+            <h3>White Sport Shoes</h3>
+            <p class="price">Price: Rs. 1200</p>
+            <p>Size: 6, 7, 8, 9</p>
+            <p>Cash On Delivery</p>
+            <a href="https://ikman.lk" target="_blank">
+                <button>Order Now</button>
+            </a>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/619f8DdEBgL._AC_SY695_.jpg" alt="Red Fashion Shoes">
+            <h3>Red Fashion Shoes</h3>
+            <p class="price">Price: Rs. 600</p>
+            <p>Size: 5, 6, 7, 8</p>
+            <p>Cash On Delivery</p>
+            <p>More Color Available</p>
+            <a href="https://ikman.lk" target="_blank">
+                <button>Order Now</button>
+            </a>
+        </div>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3YU5udfdCj87dAbvJs2fjkVoHH9S7URoxM11QxufKi6aJdjsv" alt="Maroon Embroidered Shoes">
+            <h3>Maroon Embroidered Shoes</h3>
+            <p class="price">Price: Rs. 1300</p>
+            <p>Size: 6, 7, 8</p>
+            <a href="https://ikman.lk" target="_blank">
+                <button>Order Now</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
